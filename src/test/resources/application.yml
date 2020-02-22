@@ -1,0 +1,16 @@
+reactive:
+  feign:
+    cloud:
+      enabled: false;
+    ribbon:
+      enabled: false
+    hystrix:
+      enabled: false
+    logger:
+      enabled: true
+    metrics:
+      enabled: true
+
+davos:
+  uaa:
+    sslValidationSkipped: true
