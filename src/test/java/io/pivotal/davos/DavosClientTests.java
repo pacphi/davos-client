@@ -44,7 +44,7 @@ class DavosClientTests {
 			.verify();
 	}
 
-	// FIXME  This is where we need to focus the effort.  All client client requests are being rebuffed.
+	// FIXME  This is where we need to focus the effort.  All client requests are being rebuffed.
 	// Need to understand how to authenticate and what to pass along either in request header(s) or via cookie
 
 	// As of 2020-02-22 each test below currently fails, and not in way you'd expect
